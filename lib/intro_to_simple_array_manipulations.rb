@@ -30,20 +30,20 @@ def using_insert(ar, el)
   ar.insert(4, el)
 end
 
-def using_uniq
-  
+def using_uniq(ar)
+  ar.uniq
 end
 
-def using_flatten
-  
+def using_flatten(ar)
+  ar.flatten
 end
 
-def using_delete
-  
+def using_delete(ar, string)
+  ar.delete(string)
 end
 
-def using_delete_at()
-  
+def using_delete_at(ar, index)
+  ar[index].delete
 end
 
 
