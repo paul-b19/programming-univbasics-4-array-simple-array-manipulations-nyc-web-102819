@@ -43,7 +43,7 @@ def using_delete(ar, string)
 end
 
 def using_delete_at(ar, index)
-  ar[index].delete
+  ar.delete_at(index)
 end
 
 
